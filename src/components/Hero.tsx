@@ -18,38 +18,37 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Leading the Path to
+            Votre partenaire en
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Carbon Neutrality
+              transition énergétique
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Innovative decarbonization solutions for businesses ready to build a sustainable future. 
-            Join industry leaders in the transition to net-zero emissions.
+            Solutions innovantes pour accompagner votre entreprise vers un avenir durable, écoresponsable et sans émissions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="min-w-48">
-              Explore Solutions
+              Explorer les solutions
             </Button>
             <Button variant="outline" size="lg" className="min-w-48">
-              Schedule Consultation
+              Planifier une consultation
             </Button>
           </div>
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">50+</div>
-              <div className="text-muted-foreground">Companies Transformed</div>
+              <div className="text-muted-foreground">Entreprises Transformées</div>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">2M+</div>
-              <div className="text-muted-foreground">Tons CO₂ Reduced</div>
+              <div className="text-muted-foreground">Tonnes de CO₂ Réduites</div>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">95%</div>
-              <div className="text-muted-foreground">Client Satisfaction</div>
+              <div className="text-muted-foreground">Satisfaction Client</div>
             </div>
           </div>
         </div>

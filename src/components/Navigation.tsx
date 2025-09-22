@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   return (
@@ -6,7 +7,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">
-            EcoSolve
+            <img src={logo} alt="Logo" className="h-8" />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -14,7 +15,7 @@ const Navigation = () => {
               Solutions
             </a>
             <a href="#about" className="text-foreground hover:text-primary transition-smooth">
-              About
+              À propos
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-smooth">
               Contact
@@ -22,7 +23,7 @@ const Navigation = () => {
           </div>
           
           <Button variant="cta" size="sm">
-            Get Started
+            Commencer
           </Button>
         </div>
       </div>
