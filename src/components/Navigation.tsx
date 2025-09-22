@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">
-            <img src={logo} alt="Logo" className="w-1 h-1"/>
+            <img src={logo} alt="Logo" className="w-4 h-4"/>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
