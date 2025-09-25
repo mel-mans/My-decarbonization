@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold text-primary mb-4">
-              <img src={logo} alt="Logo" className="w-64 h-64" />
+              <img src={logo} alt="Logo" className="w-32 h-32" />
             </div>
             <p className="text-background/80 mb-6 max-w-md">
               Leader de la transition vers un avenir durable grâce à des solutions innovantes de décarbonation et des conseils d'experts.
